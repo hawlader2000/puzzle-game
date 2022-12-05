@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@0.9.0/dist/js-confetti.browser.js"></script>
+  </head>
+  <style>
+    .congrats {
+      margin-top: 400px;
+      margin-left: 750px;
+    }
+    .con {
+      color: red;
+    }
+    .link-text {
+      font-size: 27px;
+    }
+  </style>
+  <body>
+    <div class="congrats">
+      <h1 class="con">Congratulations!</h1>
+      <h1>Your Game is Over</h1>
+      <h3 link="file:///home/fariha/Music/Puzzle%20Game/index.html">
+        <a
+          rel="stylesheet"
+          class="link-text"
+          href="file:///home/fariha/Music/Puzzle%20Game/index.html"
+          >Go Back Again</a
+        >
+      </h3>
+    </div>
+    <script>
+      const canvas = document.getElementById("custom_canvas");
+      const jsConfetti = new JSConfetti({ canvas });
+
+      setTimeout(() => {
+        jsConfetti.addConfetti();
+      }, 500);
+
+      button.addEventListener("click", () => {
+        jsConfetti.addConfetti();
+      });
+    </script>
+  </body>
+</html>

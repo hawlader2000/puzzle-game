@@ -1,0 +1,27 @@
+.images {
+  display: grid;
+  width: 500px;
+  /* border:1px red solid; */
+  grid-template-columns: 120px 120px 120px;
+  margin: 0 auto;
+}
+.image {
+  border: 0.5px rgb(184, 187, 184) solid;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image img {
+  width: 118px;
+  height: 118px;
+}
+h2 {
+  margin-left: 80px;
+}
+body {
+  margin-top: 20px;
+  margin-left: 500px;
+}
